@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#portada1{
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background: #0B486B;  
+    background: -webkit-linear-gradient(to right, #F56217, #0B486B); 
+    background: linear-gradient(to right, #f56117b3, #0b486bb3), url(../IMG/portadaguit.jpg); 
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#portada2{
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background: #0B486B;  
+    background: -webkit-linear-gradient(to right, #F56217, #0B486B);  
+    background: linear-gradient(to right, #f56117b3, #0b486bb3), url(../IMG/portadabateria2.jpg); 
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#portada3{
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background: #0B486B;  
+    background: -webkit-linear-gradient(to right, #F56217, #0B486B);  
+    background: linear-gradient(to right, #f56117b3, #0b486bb3), url(../IMG/fondosaxo2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    width: 100%;
+    z-index: 1;
+    margin-top: -25px;
+}
+.carousel{
+    padding-top: 55px;
+}
+#publicidad{
+    width: 100%;
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 20px; 
+}
+#publicidad div{
+margin-left: 15%;
+}
+@media screen and (max-width: 600px) {
+    #publicidad{
+     display: none;
+}
+}
+.container .card{
+    width: 300px;
+    height: 420px;
+    border-radius: 8px;
+    box-shadow:  0 2px 2px 0  rgba(7, 0, 0, 2);
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background: #1F1C2C; 
+    background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  
+    background: linear-gradient(to right, #000000ea, #070707e3); 
+}
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 2);
+
+}
+.container .card img{
+    width: 280px;
+    height: 220px;
+}
+.container .card h5{
+    font-weight: 600;
+}
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+footer{
+    padding-bottom: 0%;
+    position:absolute;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-top: 30px;
+    flex-wrap: nowrap;
+    font-family:sans-serif;
+    font-size:large;
+}
+.text-center{
+        color: white;
+}
+.arr{
+        font-size: small;
+        font-style: italic;
+}
+.col{
+        text-align: center;
+        line-height: 40px;
+        
+}
+.col a{
+        text-decoration: none;
+
+}
+.fa {
+        padding: 15px;
+        font-size: 50px;
+        width: 80px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    
+}
+.fa-instagram {
+        background: #686a6f;
+        color: white;
+
+        
+}
+.fa-facebook {
+            background: #686a6f;
+            color: white;
+}
+.fa-twitter {
+                background: #686a6f;
+                color: white;
+}
