@@ -1,0 +1,220 @@
+*{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+}
+#cajaDeComentarios{
+        width: 100%;
+        height: 70px;
+        background-color:rgb(5, 149, 168);
+        text-align: center;
+      
+        position: relative;
+        left: 30px;
+        top: 10px;
+}
+
+
+.grid-conteiner {
+display: grid;
+background-color: rgb(255, 255, 255);
+height: 640px;
+margin-left: 100px;
+margin-right: 100px;
+border: 2px solid black;
+grid-template-columns: auto auto auto ;
+grid-template-rows: auto  ;
+justify-content: center;
+align-items: center;
+
+}
+
+.card {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-header p{
+        
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+
+}
+
+
+
+.grid-conteiner div {
+
+        
+       border: 1px solid black;
+        font-style: oblique;
+        font-size: medium;
+
+
+        
+    }
+
+
+.imagenProductoCarrito{
+       display: flex;
+       justify-self: end;
+}
+
+.nombreProductoCarrito{
+        justify-self: center;
+        text-decoration-color: rgb(187, 0, 0);
+
+
+}
+
+
+.grid-conteinerComentarios {
+        display: grid;
+        
+        
+        border: 1px solid white;
+        grid-template-columns: auto ;
+        grid-template-rows: auto auto auto ;
+        justify-content: center;
+        justify-items: flex-end;
+        align-items: center;
+        
+        }
+
+
+        .grid-conteinerComentarios div {
+
+                border: 0.1px solid rgb(0, 0, 0);
+                align-self: center;
+                font-size: medium;
+        
+                padding-bottom: 5px;
+                justify-content: baseline;
+        
+
+
+        }
+
+.comentarios{
+        margin: 20px 0;
+
+
+}
+        
+.form_comentarios textarea{
+        width: 100%;
+        height: 84px;
+        max-width: 100%;
+        min-width: 100%;
+        min-height: 84px;
+        max-height: 300px;
+        padding: 10px;
+        line-height: 30px;
+        border: 1px solid rgb(255, 145, 0);
+        margin-bottom: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.form_comentarios .btn{
+        background-color: rgb(228, 142, 13);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 0;
+        margin-bottom: 10px;
+
+
+}
+
+.form_comentarios .btn:hover {
+        box-shadow: 0px 0px 9px rgba(0, 0, 0, .35);
+
+
+}
+
+
+.media .nombre {
+        color: #4b65d1;
+        margin-bottom: 0;
+
+
+}
+
+.media{
+        border-top: 1px solid #bfbfbf;
+        padding-top: 20px;
+
+}
+
+.media img{
+        margin-right: 20px;
+}
+.media .nombre span {
+        font-size: 12px;
+        color: #464646;
+        margin-left: 10px;
+}
+
+.media .comentario {
+        margin-top: 10px;
+}
+
+.media .botones {
+margin-bottom: 10px;
+
+}
+
+.media .botones a {
+        color: #4947cf;
+        font-size: 14px;
+        
+
+}
+footer{
+    padding-bottom: 0%;
+    position:absolute;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-top: 30px;
+    flex-wrap: nowrap;
+    font-family:sans-serif;
+    font-size:large;
+}
+.text-center{
+        color: rgb(10, 10, 10);
+}
+.arr{
+        font-size: small;
+        font-style: italic;
+}
+.col{
+        text-align: center;
+        line-height: 40px;
+        
+}
+.col a{
+        text-decoration: none;
+
+}
+.fa {
+        padding: 15px;
+        font-size: 50px;
+        width: 80px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    
+}
+.fa-instagram {
+        background: #686a6f;
+        color: white;
+
+        
+}
+.fa-facebook {
+            background: #686a6f;
+            color: white;
+}
+.fa-twitter {
+                background: #686a6f;
+                color: white;
+}

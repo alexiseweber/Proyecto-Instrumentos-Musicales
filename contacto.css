@@ -1,0 +1,88 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+body{
+background: #1b1b1b;
+font-family:sans-serif;
+font-size: 16px;
+}
+
+.contenedor{
+  width: 90%;
+  max-width: 1000px;
+  background: #fff;
+  padding: 40px;
+  margin: 20px auto;
+  box-shadow: 0px 1px 2px rgba(0,0,0,.5);
+}
+.contenedor h1{
+font-size: 30px;
+font-weight: 600;
+text-align: center;
+margin-bottom: 25px;
+color: orange;
+}
+.contenido{
+  display:flex;
+  width: 100%;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+.contenido .informacion,
+.contenido .formulario{
+  width: 50%;
+}
+.informacion{
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.informacion .col{
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.informacion .col p{
+color: black;
+}
+.informacion .col img{
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.formulario{
+padding-left: 10px;
+}
+.formulario input[type=text],
+.formulario textarea{
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px 20px;
+  border: 1px solid black;
+  color: grey;
+}
+.formulario input[type=submit]{
+  border-radius: 1px;
+  padding: 5px 10px;
+  border: transparent;
+  background: orange;
+  cursor: pointer;
+}
+@media screen and (max-width: 480px){
+  .contenedor{
+    padding: 40px 20px;
+  }
+  .contenido .informacion,
+  .contenido .formulario{
+    width: 100%;
+    padding-top: 30px;
+  }
+ .contenido .informacion{
+  margin-bottom: 30px;
+ }
+}

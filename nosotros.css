@@ -1,0 +1,117 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    top: 0%;
+    z-index: 1;
+    margin-top: 0px;
+}
+#portada{
+    margin-top: 70px;
+    height:500px;
+    width: 100%;
+    text-align: center;
+    background: #c21500;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(46, 100%, 50%, 0.503), hsla(6, 100%, 38%, 0.503)), url(../IMG/portadanosotros.jpg);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.textoport{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 150px;
+}
+.textoport h1{
+  font-weight: 600;
+}
+.textoport h4{
+  font-style: oblique;
+  font-weight: 400;
+}
+.integrantes{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.galeria{
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.galeria img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 15px 25px;
+    position:relative;
+}
+.galeria div{
+    width: 300px;
+    height: 300px;
+}
+.galeria h4{
+    font-size:x-large ;
+    text-align: center; 
+    margin-top: 25px;
+    color: #e9820d;
+}
+footer{
+    padding-bottom: 0%;
+    position:absolute;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-top: 30px;
+    flex-wrap: nowrap;
+    font-size:large;
+}
+.text-center{
+        color: white;
+}
+.arr{
+  font-size: small;
+  font-style: italic;
+}
+.col{
+  text-align: center;
+  line-height: 40px;
+        
+}
+.col a{
+  text-decoration: none;
+}
+.fa {
+  padding: 15px;
+  font-size: 50px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;    
+}
+.fa-instagram {
+  background: #686a6f;
+  color: white;       
+}
+.fa-facebook {
+  background: #686a6f;
+  color: white;
+}
+.fa-twitter {
+  background: #686a6f;
+  color: white;
+}
